@@ -6,7 +6,7 @@ import time
 import tempfile
 
 
-class video_obj_detect:
+class VideoObjectDetector:
     def __init__(self, model_type="tiny-yolov3"):
         """
         Инициализация детектора

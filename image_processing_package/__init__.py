@@ -1,3 +1,4 @@
-from .video_object_detector import video_obj_detect
+from .video_object_detector import VideoObjectDetector
+from .distance_estimator import DistanceEstimator
 
-__all__ = ['video_obj_detect']
+__all__ = ['VideoObjectDetector', 'DistanceEstimator']
